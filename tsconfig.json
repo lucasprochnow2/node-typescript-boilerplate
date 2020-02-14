@@ -1,0 +1,12 @@
+{
+  "exclude": ["src/**/*.test.ts", "src/__mocks__/*"],
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "strict": true,
+    "typeRoots": ["./src/modules", "./node_modules/@types"],
+    "esModuleInterop": true
+  }
+}
